@@ -1,0 +1,28 @@
+tr{font-size: 20px;}
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+tr:nth-last-of-type(even){
+    background-color: crimson;
+}
+tr:nth-last-of-type(odd){
+    background-color: yellowgreen;
+}
+th{
+    color: whitesmoke;
+}
+tfoot{
+    color: khaki;
+}
+tr:nth-of-type(odd){
+    background-color: hotpink;
+    color: seagreen;
+}
+tr:nth-of-type(even){
+    background-color: palegreen;
+    color: crimson;
+}
+td,th{
+    padding: .5em;
+}
